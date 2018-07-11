@@ -8,3 +8,8 @@ This is the website for the engineering student that provide the syllabus, notes
   3.  start apache & mysql
   4.  then go to browser and enter http://localhost/EngineeringSpace/
   8.  Done.
+
+For the database connection 
+ 1. create the database "db_es" in localhost.
+ 2. after creating the database then import the file db_es
+ 3. Done
