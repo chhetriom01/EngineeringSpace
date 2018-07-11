@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+.login-form input {
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.login-form #button {
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+.login-form #button:hover {
+	background: #43A047;
+}
+.yearbtn{
+	color:#e8e6d6;
+	border-radius: 12px;
+	height:50px;
+	margin-bottom:15px;
+}	
+.yearbtn:hover{
+	color:white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+  .es-container top{
+	  position:relative;
+	  top:100px;
+  }
+  .engineeringspace-logo{
+	font-family:fontawesome;
+	text-decoration:none;
+	line-height:1;
+	font-size:37px;
+	letter-spacing:3px;
+	color:#555555;
+	display:block;
+	position:absolute;
+	top:25px;
+	// text-shadow: 5px 1px 9px #000000;
+  }
+ 
+ .engineeringspace-logo:hover{color: black;}
+	
+  .es-slogan{
+	  line-height:1;
+	  font-size:22px;
+	  letter-spacing:2px;	 
+	  font-family:'Segoe UI',Arial,sans-serif;
+	  margin-bottom: 5px;
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+    .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  .container{
+	  margin-left:10px;
+  }
+
+	/*dropdown the menu buttons*/
+	.dropdown:hover .dropdown-menu {
+		display:block;
+	}
+
+	 .dropdown-menu a:hover {
+		background-color: #f1f1f1;
+	}
+	.dropdown-year {
+		display:inline-block;
+	}
+	
+	/*Table style*/
+
+	table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+	}
+
+	td,th {	 
+    border: 1px solid #ddd;
+	padding: 5px;
+	}
+
+	tr:nth-child(even){background-color: #f1f1f1;}
+
+	tr:hover {background-color: #ddd;}
+
+	th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:  #20b2aa;
+    color: Black;
+	}
+	a{
+	text-decoration:none;
+	color: inherit;
+	}
+	
+	textarea {
+		width:400px;
+		height: 80px;
+		background-color:#fff;
+		resize:none;
+	}
+	
+	/*Main footer*/
+	.footer-social { float: right; margin-top:5px;}
+	.footer-social li { display: inline;}
+	.footer-social span { margin-top: -20px;}

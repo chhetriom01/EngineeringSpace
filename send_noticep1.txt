@@ -1,0 +1,9 @@
+ <form action="formcheck.php" method="POST" enctype="multipart/form-data" >
+					<input type='hidden' name='notice_id' value=''>
+					<input type='hidden' name='yc_id' value="<?php echo $yc_id; ?>">
+					<input type='hidden' name='student_facu' value="<?php echo $faculty; ?>">
+					<!--yc_id and student_fac should be sent manually by retriving from its database-->
+					 <!--<input type="file" name="notice_info" multiple="true" />-->
+						<br><input name="notice_info" style="resize:none; height:80px; width:1050px" placeholder="Type Here..."></input><br>
+					 <input type="submit" id = "button" name ="sendNotice"/>
+				  </form>

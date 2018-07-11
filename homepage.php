@@ -1,0 +1,1 @@
+<img src="finding_books.jpg" width="100%" height="742">
